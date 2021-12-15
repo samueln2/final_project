@@ -1,0 +1,219 @@
+.div-0 {
+	width:50%; 
+	float:left;
+	padding-top:2%;
+	margin-left:100px;
+	margin-right:50px;
+}
+
+.div-1 { 
+	margin-left:100px;
+	margin-right:100px;
+}
+
+
+.div-3 {
+	border: 1px solid grey; 
+	background-color:#E8E8E8;
+	margin-left:7%; 
+	margin-right:7%;
+	padding:2%;	
+}
+	
+.menu {
+	text-align:center;
+	background-color:#607B7D; 
+	width:100%;
+	overflow: hidden;
+	height:35px;
+	padding-top:1%;
+}
+
+.menu a {
+	padding: 1% 1%;
+	text-decoration: none;
+}
+
+a {
+	color:white;
+}
+
+
+a:link {
+  text-decoration: none;  
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color:skyblue;
+  background-color:grey;
+}
+
+a:active {
+  text-decoration: none;
+  color:lightblue;
+  
+}
+
+body {
+	font-family:Century Gothic;
+	background-color:white;
+	margin:0px;
+}
+
+footer {	
+	width:100%;
+	background-color:#828E82; 
+	color:black; 
+	height:100px; 
+	text-align:center;
+	font-size:13px;
+	margin-top:50px;
+	padding-top:50px;
+}
+
+footer a {	
+	padding-right:1%;
+}
+
+
+
+p {
+	line-height: 1.8;
+	font-size:20px;
+}
+
+h1, h2 {
+	color:#414c4d;
+}
+
+.a2 {
+	color:black;
+	background-color:white;
+}
+
+.a2:hover {
+  text-decoration: none;
+  background-color:white;
+  color:blue;
+}
+
+
+.a2:active {
+  text-decoration: none;
+  background-color:white;
+  color:red;
+  
+}
+
+.a3 {
+	color:red;
+	
+}
+
+.a3:hover {
+  text-decoration: underline;
+  background-color:black;
+  color:pink;
+}
+
+.music {
+	border:1px solid black;
+	margin-left:100px;
+	background-image:url("https://www.teahub.io/photos/full/1-12156_music-background-images-hd.png");
+	margin-right:100px;
+	padding:2%;
+	background-repeat:no-repeat;
+	background-size: 100%;
+	background-position:100%;
+	color:white;
+	}
+
+.soccer {
+	border:2px solid red;
+	margin-top:2%;
+	margin-left:100px;
+	background-color:#FAFAD2;
+	margin-right:100px;
+	padding:2%;
+	background-repeat:no-repeat;
+	background-size: 100%;
+	background-position:100%;
+	color:red;
+	}
+
+.image {
+	padding-top:10%;
+}
+
+h1 {
+	color:#414c4d;
+}
+
+@media only screen and (max-width:1350px) {
+	.div-0, .image {
+		margin-left:10%;
+		width:auto;	
+	}	
+	
+	iframe {
+		width:100%;
+	}
+	
+	.music {
+		border:1px solid black;
+		margin-left:100px;
+		background-image:url("https://www.teahub.io/photos/full/1-12156_music-background-images-hd.png");
+		margin-right:100px;
+		padding:2%;
+		background-repeat:repeat;
+		background-size: 100%;
+		background-position:100%;
+		color:white;
+	}
+	
+	.menu {
+		width: 100%;
+		height: 150px;
+		overflow-y: auto;
+		background-color: #607B7D;
+	}
+
+	.menu a {
+		background-color: #607B7D;
+		color: white;
+		display: block;
+		padding: 12px;
+	}
+
+	.menu a:hover {
+		background-color: #ccc;
+	}
+
+	.menu a.active {
+		background-color: #04AA6D;
+		color: white;
+	}
+	
+	footer{
+		width: 100%;
+		height: 150px;
+		overflow-y: auto;
+		background-color: #607B7D;
+	}
+
+	footer a {
+		background-color: #607B7D;
+		color: white;
+		display: block;
+		padding: 12px;
+	}
+	
+}
+			
+
+			
